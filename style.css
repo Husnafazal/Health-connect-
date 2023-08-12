@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333333;
+}
+
+/* Purple Color Scheme */
+.button-purple {
+    background-color: #8b5de4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-purple:hover {
+    background-color: #6a3ab2;
+}
+
+.label-purple {
+    color: #8b5de4;
+    font-weight: bold;
+}
+
+/* Input Styling */
+input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Paragraph Styling */
+p {
+    margin-top: 10px;
+}
+
+/* Header Styling */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+input[type="date"]{
+    width : auto;
+    display :block;
+    
+}
